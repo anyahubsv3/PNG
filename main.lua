@@ -463,17 +463,17 @@ end
 
 function m.NewRoundFrame(p,r,u,v,A,B)
 local function getImageForType(C)
-return C=="Squircle"and"rbxassetid://80999662900595"
-or C=="SquircleOutline"and"rbxassetid://117788349049947"
-or C=="SquircleOutline2"and"rbxassetid://117817408534198"
-or C=="Squircle-Outline"and"rbxassetid://117817408534198"
-or C=="Shadow-sm"and"rbxassetid://84825982946844"
-or C=="Squircle-TL-TR"and"rbxassetid://73569156276236"
-or C=="Squircle-BL-BR"and"rbxassetid://93853842912264"
-or C=="Squircle-TL-TR-Outline"and"rbxassetid://136702870075563"
-or C=="Squircle-BL-BR-Outline"and"rbxassetid://75035847706564"
-or C=="Square"and"rbxassetid://82909646051652"
-or C=="Square-Outline"and"rbxassetid://72946211851948"
+return C=="Squircle"and""
+or C=="SquircleOutline"and""
+or C=="SquircleOutline2"and""
+or C=="Squircle-Outline"and""
+or C=="Shadow-sm"and""
+or C=="Squircle-TL-TR"and""
+or C=="Squircle-BL-BR"and""
+or C=="Squircle-TL-TR-Outline"and""
+or C=="Squircle-BL-BR-Outline"and""
+or C=="Square"and""
+or C=="Square-Outline"and""
 end
 
 local function getSliceCenterForType(C)
@@ -1433,7 +1433,7 @@ return aa end function a.h()
 return{
 platoboost={
 Name="Platoboost",
-Icon="rbxassetid://75920162824531",
+Icon="",
 Args={"ServiceId","Secret"},
 
 
@@ -1449,7 +1449,7 @@ New=a.load'f'.New
 },
 luarmor={
 Name="Luarmor",
-Icon="rbxassetid://130918283130165",
+Icon="",
 Args={"ScriptId","Discord"},
 
 
@@ -2640,7 +2640,7 @@ Size=UDim2.fromScale(1,1),
 }),
 
 ac("ImageLabel",{
-Image="rbxassetid://9968344105",
+Image="",
 ImageTransparency=0.98,
 ScaleType=Enum.ScaleType.Tile,
 TileSize=UDim2.new(0,128,0,128),
@@ -2653,7 +2653,7 @@ CornerRadius=UDim.new(0,8),
 }),
 
 ac("ImageLabel",{
-Image="rbxassetid://9968344227",
+Image="",
 ImageTransparency=0.9,
 ScaleType=Enum.ScaleType.Tile,
 TileSize=UDim2.new(0,128,0,128),
@@ -4249,7 +4249,7 @@ ac("ImageLabel",{
 Size=UDim2.new(0,ag.ToolTipSize,0,ag.ToolTipSize/2),
 BackgroundTransparency=1,
 Rotation=180,
-Image="rbxassetid://89524607682719",
+Image="",
 ThemeTag={
 ImageColor3="Accent",
 },
@@ -4259,7 +4259,7 @@ Size=UDim2.new(0,ag.ToolTipSize,0,ag.ToolTipSize/2),
 BackgroundTransparency=1,
 LayoutOrder=99,
 ImageTransparency=.9,
-Image="rbxassetid://89524607682719",
+Image="",
 ThemeTag={
 ImageColor3="Text",
 },
@@ -6888,7 +6888,7 @@ Visible=al and true or false
 ag("ImageLabel",{
 Size=UDim2.new(0,18,0,18),
 BackgroundTransparency=1,
-Image="rbxassetid://132464694294269",
+Image="",
 
 
 
@@ -7131,7 +7131,7 @@ CornerRadius=UDim.new(1,0),
 aw.UIElements.SatVibMap=ae("ImageLabel",{
 Size=UDim2.fromOffset(160,158),
 Position=UDim2.fromOffset(0,40+aw.TextPadding),
-Image="rbxassetid://4155801252",
+Image="",
 BackgroundColor3=Color3.fromHSV(az,1,1),
 BackgroundTransparency=0,
 Parent=ay.UIElements.Main,
@@ -7490,7 +7490,7 @@ ae("UICorner",{
 CornerRadius=UDim.new(1,0),
 }),
 ae("ImageLabel",{
-Image="rbxassetid://14204231522",
+Image="",
 ImageTransparency=0.45,
 ScaleType=Enum.ScaleType.Tile,
 TileSize=UDim2.fromOffset(40,40),
@@ -9595,7 +9595,7 @@ Active=true
 aj("ImageLabel",{
 Size=UDim2.new(0,96,0,96),
 BackgroundTransparency=1,
-Image="rbxassetid://120997033468887",
+Image="",
 Position=UDim2.new(0.5,-16,0.5,-16),
 AnchorPoint=Vector2.new(0.5,0.5),
 ImageTransparency=1,
@@ -9730,7 +9730,7 @@ PaddingBottom=UDim.new(0,ar.UIPadding/2),
 })
 
 local ay=aj("ImageLabel",{
-Image="rbxassetid://8992230677",
+Image="",
 ImageColor3=Color3.new(0,0,0),
 ImageTransparency=1,
 Size=UDim2.new(1,120,1,116),

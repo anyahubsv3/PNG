@@ -463,17 +463,17 @@ end
 
 function m.NewRoundFrame(p,r,u,v,A,B)
 local function getImageForType(C)
-return C=="Squircle"and""
-or C=="SquircleOutline"and""
-or C=="SquircleOutline2"and""
-or C=="Squircle-Outline"and""
-or C=="Shadow-sm"and""
-or C=="Squircle-TL-TR"and""
-or C=="Squircle-BL-BR"and""
-or C=="Squircle-TL-TR-Outline"and""
-or C=="Squircle-BL-BR-Outline"and""
-or C=="Square"and""
-or C=="Square-Outline"and""
+return C=="Squircle"and"rbxassetid://80999662900595"
+or C=="SquircleOutline"and"rbxassetid://117788349049947"
+or C=="SquircleOutline2"and"rbxassetid://117817408534198"
+or C=="Squircle-Outline"and"rbxassetid://117817408534198"
+or C=="Shadow-sm"and"rbxassetid://84825982946844"
+or C=="Squircle-TL-TR"and"rbxassetid://73569156276236"
+or C=="Squircle-BL-BR"and"rbxassetid://93853842912264"
+or C=="Squircle-TL-TR-Outline"and"rbxassetid://136702870075563"
+or C=="Squircle-BL-BR-Outline"and"rbxassetid://75035847706564"
+or C=="Square"and"rbxassetid://82909646051652"
+or C=="Square-Outline"and"rbxassetid://72946211851948"
 end
 
 local function getSliceCenterForType(C)
